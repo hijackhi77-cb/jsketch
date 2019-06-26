@@ -1,0 +1,7 @@
+apply plugin : 'application'
+mainClassName = "jsketch.JSketch"
+sourceSets.main.java.srcDirs = ['src']
+sourceSets.main.resources{
+	srcDirs = ["src/"]
+	includes = ["res/*.*"]
+}
